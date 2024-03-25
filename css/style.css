@@ -5,12 +5,15 @@
 }
 
 html, body, .wrapper {
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 html {
   font-family: 'Open Sans';
   scroll-behavior: smooth;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -50,6 +53,7 @@ body {
 
 .download-hover {
   display: inline-block;
+  vertical-align: middle;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
