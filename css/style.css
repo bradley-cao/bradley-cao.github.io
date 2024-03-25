@@ -32,12 +32,12 @@ body {
 
 #top-div h1 {
   /* font-size:calc(36px + 0.5vw); */
-  font-size: calc(4vw + .25rem);
+  font-size: calc(3.5vw + .25rem);
 }
 
 #top-div h3 {
   /* font-size:calc(12px + 0.5vw); */
-  font-size: calc(2.5vw + .25rem);
+  font-size: calc(2vw + .25rem);
 }
 
 /* navbar helpercss */
@@ -83,6 +83,10 @@ body {
   object-fit: cover;
 }
 
+.carousel-helper {
+  height: calc(30vw + 7.5rem);
+}
+
 .carousel-custom-caption {
   width: 35vw;
   text-align: center;
@@ -92,25 +96,28 @@ body {
 
 .project-title {
   /* font-size:calc(12px + 0.5vw); */
-  font-size: calc(2.25vw + .25rem);
+  padding-top: 1rem;
+  font-size: calc(1.75vw + .25rem);
   /* font-size: 2em; */
 }
 
 .project-skills {
   /* font-size:calc(8px + 0.5vw); */
-  font-size: calc(1.75vw + .25rem);
+  padding-top: 1rem;
+  font-size: calc(1.25vw + .25rem);
   /* font-size: 1.5em; */
 }
 
 .project-description {
   /* font-size:calc(4px + 0.5vw); */
-  font-size: calc(1.25vw + .25rem);
+  padding-top: 0.5rem;
+  font-size: calc(.75vw + .25rem);
   /* font-size: 1em; */
-  min-height: 10vw;
+  /* min-height: 10vh; */
 }
 
 /* css for subsection titles */
 .section-title {
   padding-top: 5vw;
-  font-size: calc(2.75vw + .25rem);
+  font-size: calc(2.25vw + .25rem);
 }
