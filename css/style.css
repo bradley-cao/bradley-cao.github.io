@@ -84,7 +84,8 @@ body {
 }
 
 .carousel-helper {
-  height: calc(30vw + 7.5rem);
+  height: calc(28vw + 28vh);
+  /* height: calc(35vw + 5rem); */
 }
 
 .carousel-custom-caption {
@@ -97,21 +98,21 @@ body {
 .project-title {
   /* font-size:calc(12px + 0.5vw); */
   padding-top: 1rem;
-  font-size: calc(1.75vw + .25rem);
+  font-size: calc(1.5vw + .5rem);
   /* font-size: 2em; */
 }
 
 .project-skills {
   /* font-size:calc(8px + 0.5vw); */
   padding-top: 1rem;
-  font-size: calc(1.25vw + .25rem);
+  font-size: calc(1vw + .5rem);
   /* font-size: 1.5em; */
 }
 
 .project-description {
   /* font-size:calc(4px + 0.5vw); */
   padding-top: 0.5rem;
-  font-size: calc(.75vw + .25rem);
+  font-size: calc(.5vw + .5rem);
   /* font-size: 1em; */
   /* min-height: 10vh; */
 }
@@ -119,5 +120,5 @@ body {
 /* css for subsection titles */
 .section-title {
   padding-top: 5vw;
-  font-size: calc(2.25vw + .25rem);
+  font-size: calc(2vw + .5rem);
 }
