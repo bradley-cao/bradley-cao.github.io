@@ -1,0 +1,115 @@
+.temp_img {
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+html, body, .wrapper {
+  min-height: 100vh;
+}
+
+html {
+  font-family: 'Open Sans';
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #a7cbe1; 
+  color: #124656; 
+}
+
+/* some css for top section  */
+#top-div {
+  background-image: url('/assets/top-background.jpg');
+  background-size: cover;
+  overflow: hidden;
+  height: 500px;
+}
+
+#top-div h1 {
+  font-size:calc(36px + 0.5vw);
+}
+
+#top-div h3 {
+  font-size:calc(12px + 0.5vw);
+}
+
+/* navbar helpercss */
+.navbar {
+  transition: all 0.5s;
+}
+.navbar-scrolled {
+  background-color: rgb(137,207,240);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* about section css */
+.about-container {
+  text-align: center;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.external-buttons {
+  display: inline-block;
+  min-width: 30vw;
+}
+
+.download-hover {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding-top:10px; 
+  padding-bottom:10px; 
+  padding-left:20px; 
+  padding-right:20px; 
+  text-decoration: none; 
+  border-radius: 5px;
+  border-color: #124656 !important;
+  color: #124656; 
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.download-hover:hover {
+  color: white;
+  background-color:#124656;
+}
+
+/* Carousel helper CSS */
+.project-img {
+  height: 25vw;
+  width: 40vw;
+  object-fit: cover;
+}
+
+.carousel-custom-caption {
+  width: 35vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-title {
+  /* font-size:calc(12px + 0.5vw); */
+  font-size: 24px;
+}
+
+.project-skills {
+  /* font-size:calc(8px + 0.5vw); */
+  font-size: 20px;
+}
+
+.project-description {
+  /* font-size:calc(4px + 0.5vw); */
+  font-size: 16px;
+  /* font-size: small; */
+  min-height: 90px;
+}
+
+.separator {
+  height: 0px;
+}
+
+.section-title {
+  padding-top: 75px;
+}

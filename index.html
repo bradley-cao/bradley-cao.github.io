@@ -2,11 +2,120 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
-    <link rel="stylesheet" href="css/index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image" href="assets/logo.png" />
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
     <title>Bradley's Portfolio</title>
   </head>
-    <body class ="temp_img" background="assets/work-in-progress.jpg"> 
-    </body>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" width="80" height="50" alt="">
+        </a>
+        <button id="toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <!-- <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link active" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link active" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id ="top-div" class="text-center" style="padding-top: 8em; padding-bottom: 8em;">
+      <div style="height:300px;">
+        <h1>Hi, I'm Bradley</h1>
+        <h3 id="top-subtitle">Student</h3>
+      </div>
+    </div>
+
+    <div class="card mx-auto text-center" style="width: 60vw; min-width: 30vw; margin-top: -175px; margin-bottom: 40px; border-radius: 20px; background-color: #a7cbe1;">
+      <div class="card-body mx-auto d-block" style="width:30vw; max-width: 30vw;">
+        <h2 id="about" class="card-title section-title">About Me</h2> <!-- NEED FIX HREF LINKS OVERLAPPED BY NAVBAR -->
+        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+        <img src="assets/profile.jpeg" style="border-radius: 20px !important; margin-top: 1em; margin-bottom: 1em; width: 100%; height: auto;"> 
+        <p class="card-text">Hey there! I'm a software developer from the Northern Virginia area. A computer science major at the University of Maryland, I have experience with a variety of projects, including full-stack, game development, and more.</p>
+        <div class="external-buttons">
+          <a href="files/resume.pdf" download class="border download-hover">Resume</a>
+          <a href="https://github.com/bradley-cao" target="_blank" class="border download-hover">GitHub</a>
+          <a href="https://www.linkedin.com/in/bradleycao/" target="_blank" class="border download-hover">LinkedIn</a>
+        </div>
+      </div>
+
+      <h2 id="projects" class="card-title section-title" style="margin-bottom: 1em;">Projects</h2>
+      <div id= "projects-carousel" class="carousel carousel-dark slide justify-content-center" data-bs-interval="false" data-bs-touch="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active  ">
+            <img src="assets/edgedetector.png" class="mx-auto d-block project-img" style="border-radius: 20px;">
+            <div class="carousel-custom-caption">
+              <h4 class="project-title">Canny Edge Detector</h4>
+              <h6 class="project-skills">C++</h6>
+              <p class="project-description">Project that utilizes canny edge detection, hysteresis thresholding and nonmax suprression to write a PPM image highlighting the edges of the input image. </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/energy.png" class="mx-auto d-block project-img" style="border-radius: 20px;">
+            <div class="carousel-custom-caption">
+              <h4 class="project-title">Energy Undead (HackTJ 10.0)</h4>
+              <h6 class="project-skills">C#, Unity, WebGL</h6>
+              <p class="project-description">HackTJ 10.0 Project. Serious Game for educating players about eco-friendly habits at home</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/multicast.png" class="mx-auto d-block project-img" style="border-radius: 20px;">
+            <div class="carousel-custom-caption">
+              <h4 class="project-title">Multicast Mobile</h4>
+              <h6 class="project-skills">Python, Kivy, Android, FFmpeg</h6>
+              <p class="project-description">IETF 117 demo project supporting TreeDN for MBONED and MOPS working groups</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/news.png" class="mx-auto d-block project-img" style="border-radius: 20px;">
+            <div class="carousel-custom-caption">
+              <h4 class="project-title">News Comparator (HackTJ 9.0)</h4>
+              <h6 class="project-skills">Python, Flask, NLTK, HTML, CSS</h6>
+              <p class="project-description">HackTJ 9.0 Project. Uses Natural Language Processing to compare text of user inputted articles and highlight discrepancies.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#projects-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projects-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <script src="js/name-changer.js"></script>
+    <script src="js/navbar-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
