@@ -17,11 +17,7 @@ toggler.onclick = function() {
 window.addEventListener('scroll', () => {
   if (window.scrollY > 76) {
     navBar.classList.add('navbar-scrolled');
-    // navBar.classList.remove('navbar-light');
-    // navBar.classList.add('navbar-dark');
   } else if (window.scrollY < 76) {
     navBar.classList.remove('navbar-scrolled');
-    // navBar.classList.add('navbar-light');
-    // navBar.classList.remove('navbar-dark');
   }
 });
