@@ -26,15 +26,18 @@ body {
   background-image: url('/assets/top-background.jpg');
   background-size: cover;
   overflow: hidden;
-  height: 500px;
+  /* height: 500px; */
+  height: 30vw;
 }
 
 #top-div h1 {
-  font-size:calc(36px + 0.5vw);
+  /* font-size:calc(36px + 0.5vw); */
+  font-size: 4vw;
 }
 
 #top-div h3 {
-  font-size:calc(12px + 0.5vw);
+  /* font-size:calc(12px + 0.5vw); */
+  font-size: 2.5vw;
 }
 
 /* navbar helpercss */
@@ -89,23 +92,25 @@ body {
 
 .project-title {
   /* font-size:calc(12px + 0.5vw); */
-  font-size: 3.5vh;
+  font-size: 2.25vw;
+  /* font-size: 2em; */
 }
 
 .project-skills {
   /* font-size:calc(8px + 0.5vw); */
-  font-size: 3vh;
+  font-size: 1.75vw;
+  /* font-size: 1.5em; */
 }
 
 .project-description {
   /* font-size:calc(4px + 0.5vw); */
-  font-size: 2vh;
-  /* font-size: small; */
-  min-height: 90px;
+  font-size: 1.25vw;
+  /* font-size: 1em; */
+  min-height: 10vw;
 }
 
 /* css for subsection titles */
 .section-title {
   padding-top: 75px;
-  font-size: 4vh;
+  font-size: 2.75vw;
 }
