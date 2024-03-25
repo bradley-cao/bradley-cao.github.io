@@ -51,11 +51,11 @@ body {
 }
 
 .external-buttons {
-  display: inline-block;
   min-width: 30vw;
 }
 
 .download-hover {
+  display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
@@ -91,23 +91,19 @@ body {
 
 .project-title {
   /* font-size:calc(12px + 0.5vw); */
-  font-size: 24px;
+  font-size: 2em;
 }
 
 .project-skills {
   /* font-size:calc(8px + 0.5vw); */
-  font-size: 20px;
+  font-size: 1.75em;
 }
 
 .project-description {
   /* font-size:calc(4px + 0.5vw); */
-  font-size: 16px;
+  font-size: 1em;
   /* font-size: small; */
   min-height: 90px;
-}
-
-.separator {
-  height: 0px;
 }
 
 .section-title {
