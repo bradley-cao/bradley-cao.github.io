@@ -4,16 +4,9 @@
   background-position: center;
 }
 
-html, body, .wrapper {
-  width: 100vw;
-  height: 100vh;
-}
-
 html {
   font-family: 'Open Sans';
   scroll-behavior: smooth;
-  width: 100vw;
-  height: 100vh;
 }
 
 body {
