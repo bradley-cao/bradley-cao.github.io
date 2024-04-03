@@ -77,7 +77,8 @@ body {
 }
 
 .carousel-helper {
-  height: calc(28vw + 28vh);
+  height: calc(25vw + 10rem + 7.5vw);
+  /* height: calc(8*(1.5vw + .5rem) + 25vw) */
   /* height: calc(35vw + 5rem); */
 }
 
