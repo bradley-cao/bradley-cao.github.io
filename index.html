@@ -14,7 +14,7 @@
     <title>Bradley's Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="font-size: 2vh !important;">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="font-size: 1.25rem !important;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="assets/logo.png" width="80" height="50" alt="">
@@ -56,7 +56,8 @@
 
     <div class="card mx-auto d-block text-center" style="width: 60vw; margin-top: -5vw; margin-bottom: 40px; border-color:#124656; border-radius: 20px; background-color: #a7cbe1;">
       <div class="card-body mx-auto d-block" style="width:40vw; font-size: calc(0.5vw + 0.5rem);">
-        <h2 id="about" class="card-title section-title">About Me</h2> <!-- NEED FIX HREF LINKS OVERLAPPED BY NAVBAR -->
+        <h2 class="card-title section-title">About Me</h2> <!-- NEED FIX HREF LINKS OVERLAPPED BY NAVBAR -->
+        <a class="anchor" id="about"></a>
         <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
         <img src="assets/profile.jpeg" style="border-radius: 20px !important; margin-top: 1em; margin-bottom: 1em; width: 75%; height: auto;"> 
         <p class="card-text">Hey there! I'm a software developer from the Northern Virginia area. A computer science major at the University of Maryland, I have experience with a variety of projects, including full-stack development, game development, AI/ML research, Computer Vision, and more.</p>
@@ -69,8 +70,9 @@
     </div>
 
     <div class="card mx-auto d-block text-center" style="width: 60vw; margin-bottom: 40px; border-radius: 20px; border-color:#124656; background-color: #a7cbe1;">
-      <h2 id="projects" class="card-title section-title" style="margin-bottom: 1em;">Projects</h2>
-      <div id= "projects-carousel" class="carousel carousel-dark slide justify-content-center" data-bs-interval="false" data-bs-touch="true">
+      <h2 class="card-title section-title">Projects</h2>
+      <a class="anchor" id="projects"></a>
+      <div id= "projects-carousel" class="carousel carousel-dark slide justify-content-center" data-bs-interval="false" data-bs-touch="true" style="margin-top:2em;">
         <div class="carousel-inner">
           <div class="carousel-item carousel-helper active">
             <img src="assets/edgedetector.png" class="mx-auto d-block project-img" style="border-radius: 20px;">
